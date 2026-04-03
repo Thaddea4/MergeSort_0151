@@ -48,3 +48,8 @@ int mid = (low + high) / 2; // step 2
 // fungsi rekursi
     mergeSort(low, mid);
     mergeSort(mid + 1, high);
+
+    // step merge
+    int i = low;
+    int j = mid + 1;
+    int k = low;
